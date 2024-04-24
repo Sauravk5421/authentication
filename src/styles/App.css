@@ -1,0 +1,317 @@
+
+*{
+    padding:0;
+    margin: 0;
+    background-color: rgb(219, 223, 221);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* ------------Home Page--------------- */
+  .container{
+    border: 1px solid rgb(185, 181, 181);
+    width: 25%;
+    height: 95vh;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    border-radius: 2px;
+  }
+  
+  @media screen and (max-width: 800px){
+    .container{
+     min-width: 35%;
+    }
+    
+  }
+  
+  #homePage{
+    padding: 25px 10px;
+  }
+  
+  .btn-all{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .btn-all:hover{
+    cursor: pointer;
+  }
+  
+  #home-create{
+    color: white;
+    background-color: blueviolet;
+    margin: 20px 0 10px 0;
+    border: none;
+  }
+  #home-login{
+    color: black;
+    background-color: rgb(215, 178, 250);
+    border: none;
+  }
+  
+  .para-home{
+    color: rgb(105, 102, 102);
+    font-size: 1.2vw;
+    padding: 10px 0;
+  }
+  
+  #home-tag{
+    font-size: 2vw;
+  }
+  
+  /* --------------LoginPage----------=== */
+  
+  #loginPage{
+    box-sizing: border-box;
+    border: 1px solid rgb(185, 181, 181);
+    width: 25%;
+    height: 95vh;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 25px 10px;
+  }
+  
+  @media screen and (max-width: 800px){
+    #loginPage{
+      min-width: 35%;
+    }
+    
+  }
+  
+  legend{
+    color: blueviolet;;
+    font-size: 1vw;
+    margin-left: 10px;
+  }
+  
+  fieldset{
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .input-btn{
+    padding: 5px;
+    border: none;
+    width: 95%; 
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  
+  #login-tag{
+    font-size: 2.2vw;
+  }
+  .para-login{
+    margin: 15px 0;
+    font-size: 1.4vw;
+  }
+  
+  #login-submit{
+    color: white;
+    background-color: blueviolet;
+    margin: 20px 0 10px 0;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  #login-submit:hover{
+    cursor: pointer;
+  }
+  
+  #login-to-register{
+    color: white;
+    background-color: blueviolet;
+    margin: 20px 0 10px 0;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  #login-to-register:hover{
+    cursor: pointer;
+  }
+  
+  
+  /* -------Register Page---------------------------- */
+  
+  #registerPage{
+    box-sizing: border-box;
+    border: 1px solid rgb(185, 181, 181);
+    width: 25%;
+    height: 95vh;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding: 20px 10p;
+  }
+  
+  @media screen and (max-width: 800px){
+    #registerPage{
+      min-width: 35%;
+    }
+    
+  }
+  
+  #register-tag{
+    font-size: 2.2vw;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .star{
+    color: red;
+  }
+  
+  .para-radio{
+    font-size: 1vw;
+    padding: 0 10px 5px 0;
+  }
+  
+  #register-submit{
+    color: white;
+    background-color: blueviolet;
+    margin: 15px 0 10px 0;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  #register-submit:hover{
+    cursor: pointer;
+  }
+  
+  #register-to-login{
+    color: white;
+    background-color: blueviolet;
+    margin: 10px 0 10px 0;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  #register-to-login:hover{
+    cursor: pointer;
+  }
+  
+  
+  /* -------------dashboard Page------------- */
+  
+  #dashboardPage{
+    border: 1px solid rgb(185, 181, 181);
+    width: 25%;
+    height: 95vh;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 800px){
+    #dashboardPage{
+      min-width: 35%;
+    }
+    
+  }
+  
+  .sett{
+    height: 40px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #dash-heading{
+    background-color: white;
+    font-size: 1.2rem;
+  }
+  
+  .profile-pic{
+    display: flex;
+    padding: 10px;
+  }
+  
+  #about-me{
+    padding: 10px;
+    text-align: justify;
+  }
+  
+  .profile{
+   margin-left: 15px;
+   padding: 5px;
+  }
+  
+  #profile-heading{
+    font-size: 1.8vw;
+    line-height: 2;
+  }
+  
+  #profile-para{
+    font-size: 1.2vw;
+  }
+  
+  
+  .upload{
+    width: 100px;
+    position: relative;
+  }
+  
+  
+  .upload img{
+    border-radius: 50%;
+    border:none;
+  }
+  
+  .upload .round{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background: #0011ff;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .upload .round input[type = "file"]{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
+  
+  #dashboard-logout{
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: none;
+  }
+  
+  .dashboard-btn{
+   display: flex;
+   justify-content: center;
+   margin: 15px 0;
+  }
+  
+  
